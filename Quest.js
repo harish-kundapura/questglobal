@@ -1,16 +1,17 @@
-import React from 'react'
-import { View, TouchableOpacity, Text } from 'react-native'
+// First problem
 
- const Quest = () => {
-    
+import React from "react";
+import { View, TouchableOpacity, Text } from "react-native";
+
+const Quest = () => {
   return (
-   <View>
-   <Text>harish</Text>
-   <TouchableOpacity onPress={handlePress} style={{color:"red",backgroundColor:"red"}}>
-   <Text>Press Me</Text>
-   </TouchableOpacity>
-   </View>
-  )
-}
-export default Quest
-
+    <View>
+      <View>
+        <TouchableOpacity style={{ color: "red", backgroundColor: "red" }}>
+          <Text>Press me!</Text>
+        </TouchableOpacity>
+      </View>
+    </View>
+  );
+};
+export default Quest;
