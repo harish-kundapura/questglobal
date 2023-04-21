@@ -1,6 +1,6 @@
 // Second problem
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
-import React from "react";
+import { Button, StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import React, { useState } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
